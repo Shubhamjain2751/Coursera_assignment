@@ -1,0 +1,102 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align:center;
+  margin-bottom: 15px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.row{
+	width:100%;
+}
+
+.menu{
+  position:relative;
+  background-color:grey;
+  border:1px solid black;
+  margin-right:15px;
+}
+.head1
+{
+  width:25%;
+  height:10%;
+  background-color:#a6ffff; 
+  margin:2px;
+  float:right;
+  font-family: 'Balsamiq Sans', cursive; 
+  color:black;
+  text-align: center;
+  border:1px solid black;	
+}
+.head2
+{
+  width:25%;
+  height:10%;    
+  background-color:#6a5acd; 
+  margin:2px;
+  float:right;
+  font-family: 'Balsamiq Sans', cursive; 
+  color:black;
+  text-align: center;
+  border:1px solid black;
+  	
+}
+.head3
+{
+  width:25%;
+  height:10%;
+  color:black;    
+  background-color:yellow; 
+  margin:2px;
+  float:right;
+  font-family: 'Balsamiq Sans', cursive; 
+  text-align: center;
+  border:1px solid black;	
+}
+.text{
+	clear:right;
+	font-family: 'DM Mono', monospace;
+}
+
+/*desktop*/
+@media (min-width: 992px) 
+{
+	.col-lg-4{
+       float: left;
+       width:33.33%;
+	}
+}
+
+/*tab*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	
+    .col-md-6
+	{
+        margin-bottom:15px;
+        width:50%;
+        float:left;
+    }
+    
+	.col-md-12
+    {		
+        width:100%;
+        float:left;
+    }
+    
+}
+/*mobile*/
+@media (max-width: 767px)
+{
+	.col-sm-12
+    {
+    	width:100%;
+        margin-top:15px;
+        float: left;
+    }
+}
+
+       
+
