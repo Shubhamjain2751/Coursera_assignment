@@ -56,7 +56,10 @@ h1 {
   border:1px solid black;	
 }
 .text{
-	clear:right;
+	padding: 10px;
+  	margin-top: 40px;
+  	margin-right: auto;
+  	margin-left: auto;
 	font-family: 'DM Mono', monospace;
 }
 
