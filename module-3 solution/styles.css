@@ -1,0 +1,116 @@
+.nav_def{
+	background-color: white;
+
+}
+.changed_nav {
+
+	border: 1px solid black;
+	background-color :  #ff9f38;
+	
+}
+
+.navbar-default .navbar-brand  {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 5px;
+	font-size :40px ;
+	color:#000000;
+}
+
+.navbar-toggle{
+	background-color: revert;
+	border-radius: 10px;
+}
+
+.drop{
+	background-color: #e4e3d9;
+}
+/*content*/
+.menu{
+	text-align: center;
+	font-size:3em ;
+}
+h3{
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-width: 50%;
+}
+
+.text2{
+	padding: 10px;
+	padding-bottom: 20px;
+	background-color:pink;
+}
+
+	.main_con{ 
+		border: 1px solid black;
+		background-color :pink ;
+		margin-left: 40px;
+		margin-right: 40px;	
+
+	}
+/********** Large devices only *********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-xs{
+  	display:none;
+  }
+  .bor_right{
+		border-right : 1px solid black ;
+	}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-xs{
+  	display:none;
+  }
+
+
+}
+
+/********** Small and extra small  devices only **********/
+@media (max-width: 767px) {
+	.changed_nav {
+
+		border: 1px solid black;
+		background-color :  #ff9f38;
+		margin-left: 40px;
+		margin-right: 40px;	
+}
+
+	.navbar-default .navbar-brand  {
+		margin-top: 4px;
+		margin-bottom: 4px;
+		margin-left: 5px;
+		font-size :27px ;
+		color:#000000;
+}
+	.text {
+		
+		font-size: 1.3em;
+		text-align:center;
+		border-bottom: 10px;
+	} 
+	h3{
+		text-align: center;
+		font-size: 2em;
+	}
+	.main_con{ 
+		border: 1px solid black;
+		background-color :revert ;
+		margin-left: 40px;
+		margin-right: 40px;	
+
+	}
+	
+	.text2{
+		padding-left: 20pxpx;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		background-color:pink;
+		border-bottom: 1px solid black: 
+		border-width 60%;
+}
+
+}
