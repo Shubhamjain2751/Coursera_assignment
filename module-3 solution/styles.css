@@ -31,6 +31,7 @@
 	font-size:3em ;
 }
 h1.text2{
+	border:1px solid black; 
 	background-color: pink;
 	padding-top: 20px;
 	font-size: 2.5em; 
@@ -39,7 +40,7 @@ h1.text2{
 }
 h3{
 	text-align: center;
-	font-size: 2.1em;
+	font-size:1.82em;
 	border-bottom: 1px solid black;
 	border-width: 50%;
 }
@@ -47,7 +48,7 @@ h3{
 .text2{
 
 		font-family: 'Montserrat', sans-serif;
-		font-size: 1.4em;
+		font-size: 1.3em;
 	padding: 10px;
 	padding-bottom: 20px;
 	background-color:pink;
@@ -117,7 +118,7 @@ h3{
 	
 	.text2{
 		font-family: 'Montserrat', sans-serif;
-		font-size: 1.3em;
+		font-size: 1.2em;
 		padding-left: 20pxpx;
 		padding-left: 20px;
 		padding-bottom: 20px;
