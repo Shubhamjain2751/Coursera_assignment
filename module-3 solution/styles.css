@@ -78,6 +78,10 @@ h3{
   	display:none;
   }
 
+  .bor_right1{
+		border-right : 1px solid black ;
+	}
+
 
 }
 
